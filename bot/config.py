@@ -1,0 +1,3 @@
+SHOP_IMAGE_URL = 'https://www.google.com/imgres?q=online%20shopping&imgurl=https%3A%2F%2Fimageio.forbes.com%2Fspecials-images%2Fimageserve%2F650dbf1ff4b9303a43ef747a%2FOnline-Shopping%2F960x0.png%3Fformat%3Dpng%26width%3D960&imgrefurl=https%3A%2F%2Fwww.forbes.com%2Fsites%2Fgarydrenik%2F2023%2F09%2F26%2Fproduct-content-matters-70-of-online-shoppers-say-it-can-make-or-break-a-sale%2F&docid=bCUemWW_sw6lDM&tbnid=IvJeNiHAusnmzM&vet=12ahUKEwjBkdfV-6SFAxUGERAIHeP9D7kQM3oECBoQAA..i&w=960&h=639&hcb=2&ved=2ahUKEwjBkdfV-6SFAxUGERAIHeP9D7kQM3oECBoQAA'
+
+ADMIN_SERVER_URL = 'https://e6f5-193-32-176-238.ngrok-free.app'

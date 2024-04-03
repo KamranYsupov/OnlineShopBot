@@ -1,0 +1,25 @@
+services:
+  django-aiogram:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/DjangoAiogram
+    environment:
+      - DB_HOST=postgres
+      - DB_NAME=db_name
+      - DB_USER=db_user
+      - DB_PASS=db_pass
+    command: >
+      sh -c "python start.py"
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:14.6-alpine
+    environment:
+      - POSTGRES_DB=db_name
+      - POSTGRES_USER=db_user
+      - POSTGRES_PASSWORD=db_pass
+      - POSTGRES_HOST_AUTH_METHOD=trust

@@ -1,0 +1,9 @@
+aiogram==3.4.1
+asyncpg==0.29.0
+Django==4.2.7
+psycopg2==2.9.9
+env==0.1.0
+python-dotenv==1.0.1
+Pillow==10.2.0
+daphne==4.1.0
+
